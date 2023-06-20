@@ -8,3 +8,11 @@
     font-size: 34px;
     font-family: "Roboto";
 }
+
+.vertical-line {
+    height: 400px;
+    width: 2px;
+    border-left: 1px solid black;
+    margin: 0px auto;
+    
+}
