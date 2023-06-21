@@ -1,4 +1,8 @@
 .body-container{
+    margin: 0px auto;
+    width: 1500px;
+    height: 1000px;
+    border: solid black 1px;
 
 
 }
@@ -9,12 +13,13 @@
     text-align: center;
     font-size: 34px;
     font-family: "Roboto";
-    width: 700px
+    width: 750px
     
 }
 
 .header-container h3{
     margin-bottom: -5px;
+    margin-right: 10px;
 }
 
 .vertical-line {
@@ -26,15 +31,16 @@
 }
 
 .left-container {
-    margin: 25px auto 0px;
+    margin: 25px auto 0px auto;
     width: 185px;
     height: 20px;
-
-
-
 }
 
-.add-task {
+.add-task input{
+    width: 150px;
+}
+.add-task ::placeholder {
+    text-align: center;
     
     
 }
